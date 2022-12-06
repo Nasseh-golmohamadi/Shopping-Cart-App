@@ -6,7 +6,7 @@ export default function Card({ products }) {
       <h1>Orders:</h1>
       {products.map((item) => {
         return (
-          <div className="cards">
+          <div className="cards" key={item.name}>
             <div>
               Name: <p key={item.discount}>{item.name}</p>
             </div>
