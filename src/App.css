@@ -4,6 +4,7 @@ body {
 
 .App {
   display: flex;
+  justify-content: center;
 }
 
 .formPart {
@@ -15,7 +16,10 @@ body {
   gap: 35px;
   left: 0;
   width: 20%;
-  border-right: 2px solid black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
 }
 
 .parentCard {
@@ -23,6 +27,9 @@ body {
   flex-direction: column;
   align-items: center;
   width: 60%;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .cards {
@@ -37,5 +44,9 @@ body {
 }
 
 .total {
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 5px;
   width: 20%;
+  margin: 5px;
 }
